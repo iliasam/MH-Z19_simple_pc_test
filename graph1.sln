@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.0.8000
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graph1", "graph1.csproj", "{F3F7144D-4A2A-44B3-BC47-A0F1FF6F780F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F7144D-4A2A-44B3-BC47-A0F1FF6F780F}.Debug|x86.Build.0 = Debug|x86
+		{F3F7144D-4A2A-44B3-BC47-A0F1FF6F780F}.Debug|x86.ActiveCfg = Debug|x86
+		{F3F7144D-4A2A-44B3-BC47-A0F1FF6F780F}.Release|x86.Build.0 = Release|x86
+		{F3F7144D-4A2A-44B3-BC47-A0F1FF6F780F}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal
