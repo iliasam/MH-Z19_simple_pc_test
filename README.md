@@ -1,5 +1,7 @@
 # MH-Z19_simple_pc_test
-Simple programm to test MH-Z19
-
-Простая программя для проверки CO2 датчика MH-Z19.
-Строит график содержания CO2, добавляет в график новую точку каждые 10 сек
+Simple programm to test MH-Z19  
+This PC utility draws CO2 chart using data from MH-Z19 sensor. New point is added every 10s.  
+Sensor is connected to the PC by USB-UART adapter.  
+  
+РџСЂРѕСЃС‚Р°СЏ РїСЂРѕРіСЂР°РјРјСЏ РґР»СЏ РїСЂРѕРІРµСЂРєРё CO2 РґР°С‚С‡РёРєР° MH-Z19.
+РЎС‚СЂРѕРёС‚ РіСЂР°С„РёРє СЃРѕРґРµСЂР¶Р°РЅРёСЏ CO2, РґРѕР±Р°РІР»СЏРµС‚ РІ РіСЂР°С„РёРє РЅРѕРІСѓСЋ С‚РѕС‡РєСѓ РєР°Р¶РґС‹Рµ 10 СЃРµРє
