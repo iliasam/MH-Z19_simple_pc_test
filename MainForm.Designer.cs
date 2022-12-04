@@ -41,7 +41,7 @@ namespace graph1
 			System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
 			this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
 			this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-			this.button1 = new System.Windows.Forms.Button();
+			this.btnOpenClose = new System.Windows.Forms.Button();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.statusStrip1 = new System.Windows.Forms.StatusStrip();
 			this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -74,13 +74,13 @@ namespace graph1
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(12, 223);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 30);
-			this.button1.TabIndex = 1;
-			this.button1.Text = "OPEN";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.Button1Click);
+			this.btnOpenClose.Location = new System.Drawing.Point(12, 223);
+			this.btnOpenClose.Name = "btnOpenClose";
+			this.btnOpenClose.Size = new System.Drawing.Size(75, 30);
+			this.btnOpenClose.TabIndex = 1;
+			this.btnOpenClose.Text = "OPEN";
+			this.btnOpenClose.UseVisualStyleBackColor = true;
+			this.btnOpenClose.Click += new System.EventHandler(this.btnOpenCloseClick);
 			// 
 			// timer1
 			// 
@@ -154,11 +154,11 @@ namespace graph1
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.statusStrip1);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.btnOpenClose);
 			this.Controls.Add(this.chart1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.Name = "MainForm";
-			this.Text = "graph1";
+			this.Text = "MH-Z19 test";
 			this.Load += new System.EventHandler(this.MainFormLoad);
 			((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
 			this.statusStrip1.ResumeLayout(false);
@@ -173,7 +173,7 @@ namespace graph1
 		private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
 		private System.Windows.Forms.StatusStrip statusStrip1;
 		private System.Windows.Forms.Timer timer1;
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button btnOpenClose;
 		private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
 		private System.IO.Ports.SerialPort serialPort1;
 		private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
